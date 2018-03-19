@@ -1,0 +1,62 @@
+
+.bigDiv{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+.dmDiv{
+    width: 100%;
+    height: 70%;
+    border: 1px solid yellow;
+}
+.dmSendDiv{
+    width: 100%;
+    height: 30%;
+    border: 1px solid  green;
+    display: table;
+}
+/* dmDiv*/
+.dmScreenDiv{
+    height: 90%;
+    margin: 20px 40px 20px 40px;
+    border: 1px solid  rgb(53, 52, 52);  
+}
+.txtScreen{
+    height: 25px;
+    width: auto;
+    color: red;
+    border: 1px solid orchid;
+}
+/* dmSendDiv */
+.dmSendMessageDiv{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.msgTxt{
+    width: 30%;
+    height: 20%;
+    border: 1px solid orchid;
+}
+.msgBtn{
+    width: 10%;
+    height: 20%;
+    margin-top: 20px;
+    color: orchid;
+    background-color: transparent;
+    border: 1px solid orchid;
+}
+
+.dm_mask {
+    height: 380px;
+  }
+  .dm_show div {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 300;
+    color: blueviolet;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  

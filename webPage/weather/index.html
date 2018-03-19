@@ -1,0 +1,105 @@
+<!DOCTYPE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+<!--
+    &#8451;——℃
+    &#176;C——° C
+-->
+
+<head>
+    <script type="text/javascript" src="http://cdn.static.runoob.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="/index.css">
+    <script type="text/javascript" src="/index.js"></script>
+    <title>天气预报</title>
+</head>
+
+<body>
+
+    <select id="province">
+        <option>
+            请选择您所在的省份
+        </option>
+    </select>
+    <select id="city">
+        <option>
+            请选择您所在的城市
+        </option>
+    </select>
+    <select id="area">
+        <option>
+            请选择您所在的地区
+        </option>
+    </select>
+    <button id="select">查询</button>
+
+    <div class="future-title">
+        <input type="text" id="inputTxt" placeholder="请输入你想查询的地区名称（eg.重庆）" />
+        <button id="seWeather">查询</button>
+    </div>
+
+    <div class="title-box">
+        <div class="title-text">
+            <span id="title">
+                <span id="local">古蔺</span>
+            </span>
+
+        </div>
+        <div class="weather-box">
+            <img class="weather-img" id="img_1" src="http://api.k780.com/upload/weather/d/1.gif" />
+            <span id="describe1">多云 10 &#176;</span>
+        </div>
+    </div>
+
+    <!--
+    <div id="index-box"></div>  
+    <div class="details">
+        <span id="span">空气质量</span>
+        <span id="span">湿 度</span>
+        <span id="span">穿衣指数</span>
+        <span id="span">洗车指数</span>
+        <span id="span">旅行指数</span>
+        <span id="span">锻炼指数</span>
+        <span id="span">紫外线指数</span>
+    </div>
+-->
+    <div class="future-title">
+        <span id="futureTitle">未来几日的天气</span>
+    </div>
+    <div class="future-box">
+        <div class="one">
+            <h5 id="h2">明日</h5>
+            <img class="weather-img" id="img_2" src="http://api.k780.com/upload/weather/d/1.gif" />
+            <span id="describe2">多云 10 &#176;</span>
+        </div>
+        <div class="two">
+            <h5 id="h3">第三天</h5>
+            <img class="weather-img" id="img_3" src="http://api.k780.com/upload/weather/d/1.gif" />
+            <span id="describe3">多云 10 &#176;</span>
+        </div>
+        <div class="three">
+            <h5 id="h4">第四天</h5>
+            <img class="weather-img" id="img_4" src="http://api.k780.com/upload/weather/d/1.gif" />
+            <span id="describe4">多云 10 &#176;</span>
+        </div>
+        <div class="four">
+            <h5 id="h5">第五天</h5>
+            <img class="weather-img" id="img_5" src="http://api.k780.com/upload/weather/d/1.gif" />
+            <span id="describe5">多云 10 &#176;</span>
+        </div>
+        <div class="five">
+            <h5 id="h6">第六天</h5>
+            <img class="weather-img" id="img_6" src="http://api.k780.com/upload/weather/d/1.gif" />
+            <span id="describe6">多云 10 &#176;</span>
+        </div>
+
+        <div class="six">
+            <h5 id="h7">第七天</h5>
+            <img class="weather-img" id="img_7" src="http://api.k780.com/upload/weather/d/1.gif" />
+            <span id="describe7">多云 10 &#176;</span>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

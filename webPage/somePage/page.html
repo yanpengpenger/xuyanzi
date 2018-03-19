@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--让viewpor的分辨率和真是设备上的分辨率相等，不允许用户缩放-->
+    <meta name="viewport" content="width=device-width,inital-scale=1.0,minimun-scale=1.0,maximum-scale=1.0,user-scalable=no ">
+    <link rel="stylesheet" href="page.css" />
+    <script type="text/javascript" src="/meGit/somePage/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/meGit/somePage/webpage.js"></script>
+    <title>FreeCodeCamp</title>
+
+</head>
+
+<body>
+    <!--整個頁面 -->
+    <div class="bigDiv">
+        <!--顶部导航栏-->
+        <div class="topDiv">
+            <img class="logoImg" src="img/qlip.png" />
+            <div class="topBtnDiv">
+                <button class="aboutBtn"  type="button">ABOUT</button>
+                <button class="portfoLlioBtn" type="button">PORTFOLIO</button>
+                <button class="contactBtn" type="button">CONTACT</button>
+            </div>
+        </div>
+        <!--页面内容-->
+        <div class="divMiddle">
+            <div class="divLeftMiddle">
+                <p class="p1SpanMiddle">
+                    <pre>
+                    Front-End Developer and UX/UI designer, with practical experience <br/>
+                        in project management, branding strategy, and creative direction; <br/>
+                        devoted to functional programming and information architecture.<br/>
+                    </pre>
+                </p>
+                <hr class="line" />
+                <p class="p2SpanMiddle">
+                    Web Developer - User Experience Designer - Graphic Artist
+                </p>
+            </div>
+            <div class="divRightMiddle">
+                <img class="imgDaiyu" src="img/daiyu.jpeg" />
+            </div>
+        </div>
+        <div class="divPortfolioContact">
+            <!--Portfolio 模块-->
+            <div class="divPortfoLlioTable">
+                <table class="tablePortfolio">
+                    <tr>
+                        <th colspan="2">
+                            <h1 class="pTitleFont">PORTFOLIO</h1>
+                            <hr class="lineTitle" />
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/1.jpg" class="imgDivPortfolio" />
+                        </td>
+                        <td>
+                            <img src="img/2.jpeg" class="imgDivPortfolio" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/3.jpg" class="imgDivPortfolio" />
+                        </td>
+                        <td>
+                            <img src="img/4.jpeg" class="imgDivPortfolio" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/5.jpeg" class="imgDivPortfolio" />
+                        </td>
+                        <td>
+                            <img src="img/6.jpeg" class="imgDivPortfolio" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/7.jpg" class="imgDivPortfolio" />
+                        </td>
+                        <td>
+                            <img src="img/8.jpeg" class="imgDivPortfolio" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr class="hrPorContact" />
+            <!--contact模块-->
+            <div class="divContact">
+                <div class="divContentTop">
+                    <h1 class="pTitleFont">CONTACT ME</h1>
+                    <hr class="lineTitle" />
+                    <div class="divContentInfoLeft">
+                        <input type="text" class=" txtStyle" name="txtName" placeholder="Name" />
+                        <input type="text" class=" txtStyle" name="txtEmails" placeholder="Email Address" />
+                        <input type="text" class=" txtStyle" name="txtPhone" placeholder="Phone Number" />
+                        <textarea class="txtAreaMessage " rows="4" name="txtAreMessage" placeholder="Message."></textarea>
+                    </div>
+                    <div class="divContentInfoRight">
+                        <div class="divContent">
+
+                            Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume,tips on how
+                            to solve your sudoku,random questions about the universeand the meaning of life, or even if only
+                            for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.
+                            <br/>
+                            <br/> I promise to reply A.S.A.P.
+                        </div>
+                    </div>
+                </div>
+                <div class="divContentBottom">
+                    <table style="width:100%">
+                        <tr>
+                            <td style="width:55%">
+                                <button class="SendBtn" name="sendBtn">Send</button>
+                            </td>
+
+                            <td style=" width:45%" class="p2">Note: No spam/soliciting pour moi, merci :)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--底部信息-->
+    <div class="divBottomInfo">
+        <div class="divAuthorAndWeb">
+            <div class="divAuthor">
+                <div class="divAuthorContent">
+                    ABOUT THIS PAGE
+                    <br/>
+                    <br/> Made with
+                    <img class="imgPng" src="img/smile.png" /> and
+                    <img class="imgPng" src="img/cool.png" />
+                    <br/>by
+                    <a href="https://codepen.io/yanpengpenger/" style="color:rgb(150, 60, 76); font-size:20px;text-decoration:none;">.yanpengpenger</a>.
+                </div>
+
+            </div>
+            <div class="divWeb">
+                <div class="divAuthorContent">
+                    AROUND THE WEB
+                    <br/>
+                    <div class="divContentLogo">
+                        <div class="divCircleLogo">
+                            <img src="img/qq.png" id="qq" class="imgPngLogo" />
+                        </div>
+                        <div class="divCircleLogo">
+                            <img src="img/github.png" id="github" class="imgPngLogo" />
+                        </div>
+                        <div class="divCircleLogo">
+                            <img src="img/wechat.png" id="wechat" class="imgPngLogo" />
+                        </div>
+                        <div class="divCircleLogo">
+                            <img src="img/twitter.png" id="twitter" class="imgPngLogo" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divRights">
+            qlip © 2017. All Rights Reversed
+            <br/>
+        </div>
+    </div>
+
+</body>
+
+</html>

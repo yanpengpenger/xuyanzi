@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+}
+*{
+    vertical-align: baseline;
+}
+div{
+    position: relative;
+}
+.title-box{
+    width: 450px;
+    position: relative;
+    margin: auto auto  auto  35% ;
+    padding: 10px;
+}
+.title-text{
+    width: 450px;
+    font-size: 32px;
+    font-weight: 200;
+    text-align: center;
+}
+#local{
+    margin-top: 10px;
+    letter-spacing: 30px;
+}
+.weather-box{
+    line-height: 80px;
+    text-align: center;
+}
+.weather-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.weather-box span{
+    font-size: 24px;
+    vertical-align: middle;
+}
+.details{
+    text-align: center;
+}
+#span{
+    padding: 15px;
+    border-radius: 3px;
+    background-color: rgb(236, 185, 235);
+    margin: 10px;
+    cursor: pointer;
+}
+.future-box{
+    position: relative;
+    margin-top: 20px;
+    align-self: center;
+    margin-left: 10px;
+}
+.future-box div{
+    float: left;
+    margin: 5px;
+    padding:15px;
+    background-color: rgb(236, 185, 235);
+    border-radius: 3px;
+}
+.future-title{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+#futureTitle{
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+h5{
+    text-align: center;
+}
+
+#inputTxt{
+    margin: 30px;
+    width: 350px;
+    border: 1px solid rgb(236, 185, 235);
+    border-radius: 3px;
+    padding: 10px;
+}
+#seWeather{
+    border: 1px solid rgb(236, 185, 235);
+    border-radius: 3px;
+    padding: 10px;
+    width: 120px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#province{
+    display: none;
+}
+#city{
+    display: none;
+}
+#area{
+    display: none;
+}
+#select{
+    display: none;
+}
+#index-box{
+    width:200px;
+    display:none;
+    color:red;
+    background-color: orange;
+    line-height:18px;
+    border-radius: 3px;
+    padding:5px;
+    z-index: 2;
+}  

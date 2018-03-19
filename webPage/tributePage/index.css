@@ -1,0 +1,27 @@
+body{
+    margin-top:50px;
+}
+.red-text{
+    color:#F00;
+}
+h1{
+    font-family:Monospace;
+    text-align:center;
+}
+ p{
+    font-size:14px;
+    font-family:Monospace;
+}
+.small-img{
+    width:200px;
+    height:210px;
+}
+.solid-red-border{
+    border-color:red;
+    border-style:solid;
+    border-width:5px;
+    border-radius:50%;
+}
+body{
+    margin-top:50px;
+}

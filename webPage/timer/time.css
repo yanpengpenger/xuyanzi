@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    background-color: pink;text-align: center;
+}
+h1{
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4em;
+  color: white;
+}
+/*中间的显示模块*/
+.middle-box{
+    width: 650px;
+    height: 600px;
+    margin: auto;
+    display: table;
+    text-align: center;
+}
+
+.length-box{
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+.break-length{
+    width: 49%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.session-length{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+    clear: float;
+}
+/*数字增减*/
+.break-num-box{
+    width: 50%;
+    float: left;
+    text-align: center;
+    display: table;
+    margin-top:  5px;
+}
+.session-num-box{
+    width: 50%;
+    float: left;
+    clear: float;
+    display: table;
+    margin-top:  5px;
+}
+.num-img{
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#num{
+    width: 65px;
+    height: 45px;
+    font-size: 26px;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+/*时间显示*/
+.timer-box{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 100%;
+}
+.color-box{
+    width: 290px;
+    height: 290px;
+    border: none;
+    margin: 5px auto;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+    /*
+    animation: move 2s;
+    */ 
+}
+#color{
+    width: 290px;
+    height: 0px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #6caf00;
+    z-index: -1;
+}
+#sp{
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 190px;
+}
+#time-text{
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 60px;
+}

@@ -1,0 +1,103 @@
+    body {
+        background-color: rgb(226, 150, 162);
+    }
+    
+    .change-content-big-box {
+        position: absolute;
+        width: 900px;
+        height: 300px;
+        /* background: rgb(238, 204, 204); */
+        left: 50%;
+        top: 50%;
+        margin-left: -500px;
+        margin-top: -150px;
+        /* ========== */
+        text-align: center;
+    }
+    
+    .change-content-box {
+        /* background: rgb(77, 75, 75); */
+        width: 400px;
+        height: 50px;
+        margin: 10px auto;
+    }
+    
+    .change-content-box #search-box {
+        margin: 10px auto;
+        width: 300px;
+        height: 25px;
+        border-radius: 5px;
+        border: none;
+        color: rgb(226, 150, 162);
+        padding-right: 30px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    
+    .change {
+        display: none;
+    }
+    
+    .change-content-box #icon-delete {
+        background-image: url("/img/清除.png");
+        background-repeat: no-repeat;
+        right: 285px;
+        margin-top: 15px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        color: #B2B2B2;
+        cursor: pointer;
+    }
+    
+    #a-search-article {
+        text-decoration: none;
+    }
+    
+    #span-search-random-article {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        outline: none;
+    }
+    
+    .search-icon-box p {
+        color: white;
+        font-size: 16px;
+        outline: none;
+    }
+    
+    #search-icon {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    #searchResult {
+        display: none;
+        list-style: none;
+        background-color: rgb(212, 190, 163);
+        text-align: left;
+        /* padding-bottom: 10px; */
+        padding: 20px;
+    }
+    
+    #searchResult a {
+        text-decoration: none;
+    }
+    
+    #title {
+        font-size: 20px;
+        padding-top: 20px;
+        cursor: pointer;
+        color: rgb(218, 88, 109);
+    }
+    
+    #content {
+        font-size: 14px;
+        border-bottom: 1px solid gray;
+        border-radius: 5px;
+        padding-bottom: 10px;
+        cursor: pointer;
+        color: white;
+    }
